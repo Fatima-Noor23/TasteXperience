@@ -1,0 +1,8 @@
+# Render Blueprint – TasteXperience backend
+# Builds from repo root (server.cjs + package.json here)
+services:
+  - type: web
+    name: tastexperience-api
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
